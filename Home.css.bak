@@ -1,0 +1,222 @@
+/* Center of page */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* Navigation part */
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+
+.header .wrapper {
+    display: flex;
+}
+
+/* logo */
+.logo a {
+    margin-top: 17px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(./Images/Logo.jpg);
+    font-size: 0;
+}
+
+/* Navigation */
+.nav {
+    margin-left: 70px;
+}
+
+.nav ul {
+    display: flex;
+    padding-top: 29px;
+}
+
+.nav li {
+    margin-right: 24px;
+}
+
+.nav li a {
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+
+.nav li .active,
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+
+/* Banner Part */
+.banner {
+    height: 420px;
+    background:linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%);
+}
+
+.banner .wrapper {
+    height: 420px;
+    background-image: url(./Images/Home\ Banner.jpg);
+    background-repeat: no-repeat;
+}
+
+/* About Part */
+.about{
+    display: flex;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.about .right {
+    margin-left: 20px;
+    text-align: center;
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+    color: #fff;
+}
+
+.about h2{
+    font-size: 36px;
+    line-height: 100px;
+}
+
+.about p{
+    font-size: 18px;
+}
+
+/* Services Part */
+.services {
+    margin-top: 15px;
+}
+
+/* Title */
+.hd {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+
+.hd h3 {
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: underline rgba(0, 0, 0, 0.5);
+}
+
+/* Category of Services */
+.bd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bd li {
+    margin-bottom: 14px;
+    width: 228px;
+    height: 271px;
+    background-color: pink;
+}
+
+.bd li .pic {
+    height: 156px;
+}
+
+.bd li .text {
+    padding: 20px;
+    height: 115px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.bd li .text h4 {
+    margin-bottom: 13px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* Contact */
+.contact {
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+}
+
+.contact .wrapper {
+    display: flex;
+    height: 450px;
+}
+
+.contact .map {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact .center {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-right: 1px solid #333;
+}
+
+.contact .center h3 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 22px;
+    height: 80px;
+    width: 400px;
+    font-size: 36px; 
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact .center ul {
+    padding-left: 40px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.contact .center li.phone {
+    padding-left: 30px;
+    background-image: url(./Images/Phone\ icons.png);
+    background-repeat: no-repeat;
+}
+
+.contact .center a.WhatsApp img {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.contact .center li.address {
+    padding-left: 35px;
+    background-image: url(./Images/Address\ icons.png);
+    background-repeat: no-repeat;
+}
+
+.contact .right h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    height: 80px;
+    width: 400px;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact .right ul {
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.contact .right ul li {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renew & Pay Bill Services</title>
+    <link rel="stylesheet" href="./Base.css">
+    <link rel="stylesheet" href="./Renew & Pay Bill.css">
+</head>
+<style>
+.button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  cursor: pointer;
+}
+</style>
+<body>
+     <!-- Navigation Part -->
+     <div class="header">
+        <div class="wrapper">
+            <!-- logo -->
+            <div class="logo">
+                <a href="./index.html">JMAR Event Creation</a>
+            </div>
+            <!-- Navigation -->
+            <div class="nav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Authorised Dealer.html">Authorised Dealer</a></li>
+                    <li><a href="./Renew & Pay Bill.html" class="active">Renew & Pay Bill Services</a></li>
+                    <li><a href="./Printing.html">Printing</a></li>
+                    <li><a href="./Event.html">Events</a></li>
+                    <li><a href="./Gift & Souvenir.html">Gift & Souvenir</a></li>
+					<li><a href="./Booking.php">Book</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+    
+    <!-- Banner Part -->
+    <div class="banner">
+        <div class="wrapper">
+            <img src="./Images/Renew & Pay bill services banner.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- About Renew & Pay Bill Services -->
+    <div class="renew wrapper">
+        <div class="hd">
+            <h3>About Renew & Pay Bill Services</h3>
+        </div>
+        <div class="bd">
+            <div class="left">
+                <img src="./Images/about Renew & Pay Bill Services.jpg" alt="">
+            </div>
+            <div class="right">
+                <h3>Welcome to JMAR Event Creation - Your Simple Renew & Pay Solution!</h3>
+                <p><i>At JMAR Event Creation, we simplify your life by managing all your renewals and payments in one place. With our user-friendly platform, secure transactions, and personalized reminders, you can renew subscriptions and pay bills hassle-free. </i></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Renew & Pay Bill Services Part -->
+    <div class="trenew wrapper">
+        <!-- Title -->
+        <div class="hd">
+            <h3>Types of Renew & Pay Bill Services</h3>
+            <h5>(If you want to know more renew & pay bill services or details, you are welcome to contact us)&#128522;</h5>
+        </div>
+        <!-- Types of Renew & Pay Bill Services -->
+        <div class="bd">
+            <ul>
+                <li>
+                        <div class="pic"><img src="./Images/astro logo.png" alt=""></div>
+                </li>
+                <li>
+                        <div class="pic"><img src="./Images/indah water logo.png" alt=""></div>
+                </li>
+                <li>
+                        <div class="pic"><img src="./Images/tnb logo.png" alt=""></div>
+                </li>
+                <li>
+                        <div class="pic"><img src="./Images/telecom logo.jpg" alt=""></div>
+                </li>
+                <li>
+                        <div class="pic"><img src="./Images/jpj logo.png" alt=""></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        
+</body>
+</html>

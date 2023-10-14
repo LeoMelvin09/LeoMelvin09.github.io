@@ -1,0 +1,236 @@
+/* Center of page */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* Navigation part */
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+
+.header .wrapper {
+    display: flex;
+}
+
+/* logo */
+.logo a {
+    margin-top: 17px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(./Images/Logo.jpg);
+    font-size: 0;
+}
+
+/* Navigation */
+.nav {
+    margin-left: 70px;
+}
+
+.nav ul {
+    display: flex;
+    padding-top: 29px;
+}
+
+.nav li {
+    margin-right: 24px;
+}
+
+.nav li a {
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+
+.nav li .active,
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* Banner Part */
+.banner {
+    height: 420px;
+    background:linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%);
+}
+
+.banner .wrapper img {
+    width: 1200px;
+    height: 420px;
+}
+
+/* About Gift & Souvenir */
+.gift .hd {
+    margin-top: 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.gift .hd h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline rgba(0, 0, 0, 0.5);
+}
+
+.gift .bd {
+    display: flex;
+}
+
+.gift .bd .left {
+    height: 400px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.gift .bd .left img {
+    width: 600px;
+    height: 400px; 
+}
+
+.gift .bd .right {
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+}
+
+.gift .bd .right h3 {
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gift .bd .right p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+/* Gift & Souvenir Part */
+.tgift {
+    margin-top: 15px;
+}
+
+/* Title */
+.tgift .hd {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+
+.tgift .hd h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline rgba(0, 0, 0, 0.5);
+}
+
+/* Types of Gift & Souvenir */
+.bd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bd li {
+    margin-bottom: 14px;
+    width: 228px;
+    height: 271px;
+    background-color: #fff;
+}
+
+ .bd li .pic {
+    width: 228px;
+    height: 156px;
+}
+
+.tgift .bd li img {
+    width: 228px;
+    height: 271px;
+}
+
+/* Contact */
+.contact {
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+}
+
+.contact .wrapper {
+    display: flex;
+    height: 450px;
+}
+
+.contact .map {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact .center {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-right: 1px solid #333;
+}
+
+.contact .center h3 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 22px;
+    height: 80px;
+    width: 400px;
+    font-size: 36px; 
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact .center ul {
+    padding-left: 40px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.contact .center li.phone {
+    padding-left: 30px;
+    background-image: url(./Images/Phone\ icons.png);
+    background-repeat: no-repeat;
+}
+
+.contact .center a.WhatsApp img {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.contact .center li.address {
+    padding-left: 35px;
+    background-image: url(./Images/Address\ icons.png);
+    background-repeat: no-repeat;
+}
+
+.contact .right h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    height: 80px;
+    width: 400px;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact .right ul {
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.contact .right ul li {
+    padding-bottom: 10px;
+}
